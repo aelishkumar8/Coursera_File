@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudo Selector</title>
+</head>
+<body>
+    <style>
+        a li{
+            list-style: none;
+            font-style: oblique;
+            text-align: center;
+        }
+        a li:hover a li :active{
+            font: 40%;
+            background-color: aqua;
+        }
+        a li .Insta:link a li .Insta:visited{
+            color: magenta;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        } 
+        a li .Facebook:link a li .Facebook:link:visited{
+            color: skyblue;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h1{
+            text-align: center;
+        } 
+    </style>
+    <h1> Intro and Social Media tag</h1>
+    <div>Hi! I am aelish kumar. I m BTech CSE student </div>
+    <p>My Profiles in soical Media:
+        <ul>
+            <li class="Insta"><a href="https://www.instagram.com/aelishkumar/">instagram</a></li>
+            <li class="Facebook"><a href="https://www.facebook.com/aelishkumar8/">Facebook</a></li>
+        </ul>
+    </p>
+</body>
+</html>
