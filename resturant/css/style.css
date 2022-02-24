@@ -5,11 +5,6 @@ body{
     font-family: 'Oxygen', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-.navbar-header{
-    width: 100%;
-    margin: auto;
-    border: 3 px;
-}
 
 #header-nav{
     background-color: #f6b319;
@@ -52,3 +47,4 @@ body{
 .navbar-brand p span{
     vertical-align: middle;
 }
+
