@@ -48,3 +48,47 @@ body{
     vertical-align: middle;
 }
 
+#nav-list{
+    margin-top: 10px;
+}
+
+#nav-list a{
+    color: rgb(189, 33, 33);
+    text-align: center;
+}
+
+#nav-list a:hover{
+    color:rgb(82, 11, 11);
+    background: #E7E7E7 ;
+}
+
+#nav-list a span{
+    font-size: 1.8em;
+}
+
+
+#phone{
+    margin-top: 5px;
+}
+
+#phone a{
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div{
+    text-align: right;
+    padding-right: 15px;
+    color: #557c3e;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid rgb(82, 11, 11);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:rgb(82, 11, 11);
+    border: 0;
+}
+.navbar-header button.navbar-toggle{
+    clear:both;
+}
