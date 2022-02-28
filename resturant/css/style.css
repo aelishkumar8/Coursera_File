@@ -92,3 +92,31 @@ body{
 .navbar-header button.navbar-toggle{
     clear:both;
 }
+
+
+@media(min-width: 992px) and (max-width: 1199px)  {
+    #logo-img{
+        background-image: url('../image/restaurant-logo_medium.png');
+        width: 100px;
+        height: 100px;
+
+    }
+}
+
+@media(max-width: 767px){
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-toggle{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .navbar-brand h1{
+        font-size: 3.3vw;
+    }
+    .navbar-brand span{
+        font-size: 1.7vw;
+    }
+}
